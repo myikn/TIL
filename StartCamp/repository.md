@@ -37,8 +37,8 @@
 - untracked(working directory) -> git add -> tracked, staged(staging area) -> git commit -> tracked, committed(repository)
 - git config --global user.email {email}
 - git config --global user.name {name}
-- git add(파일명 or 위치)
+- git add(파일명 or 위치) - 파일들을 스테이지 위로 올림
 - git commit -m ""  >>>>> 순서대로 git modified 쌓임 
-- git push 
+- git push -u origin master >> commit 한 결과들 원격저장소 깃허브로 전송
 - git status, git log, 
 - git log --oneline
