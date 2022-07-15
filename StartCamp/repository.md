@@ -39,6 +39,8 @@
 - git config --global user.name {name}
 - git add(파일명 or 위치) - 파일들을 스테이지 위로 올림
 - git commit -m ""  >>>>> 순서대로 git modified 쌓임 
-- git push -u origin master >> commit 한 결과들 원격저장소 깃허브로 전송
+- git remote add origin {URL} >> 원격 저장소를 origin 이라는 이름으로 add함
+- git push -u origin master >> master가 commit 한 결과들 origin이라는 원격저장소 깃허브로 전송
 - git status, git log, 
 - git log --oneline
+- git clone >> 최초로 컴퓨터로 깃 내용물을 가져올때
