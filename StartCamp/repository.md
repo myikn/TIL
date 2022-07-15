@@ -31,12 +31,14 @@
 # 4. git 기본
 
 - README.md 생성하기
-- working directory, staging area, repository
-- 작업중 디렉토리, 커밋으로 남기고싶은 특정 버전파일이 존재하는곳, 커밋들이 저장되는곳
+- working directory : 작업중 디렉토리
+- staging area : 커밋으로 남기고싶은 특정 버전파일이 존재하는곳 
+- repository : 커밋들이 저장되는곳
 - untracked(working directory) -> git add -> tracked, staged(staging area) -> git commit -> tracked, committed(repository)
 - git config --global user.email {email}
 - git config --global user.name {name}
-- git add, git status, git log, 
-- git log --oneline
+- git add(파일명 or 위치)
 - git commit -m ""  >>>>> 순서대로 git modified 쌓임 
-- head -> master 
+- git push 
+- git status, git log, 
+- git log --oneline
