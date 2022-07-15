@@ -8,6 +8,7 @@ print(f'당첨번호 : {lotto_number}')
 print(f'보너스 번호 : {bonus_number}')
 
 first, second, third, forth, fifth, fail, tries, money = 0, 0, 0, 0, 0, 0, 0, 0
+b=0
 howmany = int(input('시도해볼 시뮬레이션 횟수: '))
 
 while tries < howmany:
