@@ -44,3 +44,4 @@
 - git status, git log, 
 - git log --oneline
 - git clone >> 최초로 컴퓨터로 깃 내용물을 가져올때
+- git pull origin master >> master에게 origin을 내보내기
